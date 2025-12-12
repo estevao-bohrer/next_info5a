@@ -7,7 +7,7 @@ export async function updateNoticiaRequest(id, titulo, conteudo, tipo) {
         tiponoticia: tipo
     };
     try {
-        const response = await fetch("https://apiestevao.vercel.app/putnoticias", {
+        const response = await fetch("https://ap-iestevao.vercel.app/putnoticias", {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json"
